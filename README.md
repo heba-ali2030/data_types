@@ -17,3 +17,5 @@ steps:
             * 2- multipy in itself
             
             * 3- built in power function
+
+            * 4- def function
