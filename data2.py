@@ -26,6 +26,7 @@ def temperature_conversion(fahrenheit):
     return fahrenheit
 
 print("The temperature conversion to fahrenheit is ", temperature_conversion(fahrenheit))
+
 def temperature_conversion(celsius):
     celsius = (fahrenheit - 32) / 1.8
     return celsius
