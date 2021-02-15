@@ -10,21 +10,32 @@
 
 #Write a python function that converts celsius to fehranheit and the opposite
 celsius =int(input('what is weather temperature now in celsius : '))
+fahrenheit =int(input('what is weather temperature now in fahrenheit : '))
+# fahrenheit = (celsius * 1.8) + 32  
+# # print('%0.1f  Celsius is equal to %0.1f degree Fahrenheit'%(celsius,fahrenheit))
 
-fahrenheit = (celsius * 1.8) + 32  
+
+# celsius = (fahrenheit - 32) / 1.8
 # print('%0.1f  Celsius is equal to %0.1f degree Fahrenheit'%(celsius,fahrenheit))
 
-
-celsius = (fahrenheit - 32) / 1.8
-# print('%0.1f  Celsius is equal to %0.1f degree Fahrenheit'%(celsius,fahrenheit))
-
-print("temperature in celsius is:", celsius ,"while temperature in fahrenheit is:",fahrenheit)
+# print("temperature in celsius is:", celsius ,"while temperature in fahrenheit is:",fahrenheit)
 
 
-name=input('what is your name?: ')
+def temperature_conversion(fahrenheit):
+    fahrenheit = (celsius* 1.8) + 32 
+    return fahrenheit
 
-def greet(name):
-    print("hello", name ,"good morning , how are you ? have a nice time! ")
+print("The temperature conversion to fahrenheit is ", temperature_conversion(fahrenheit))
+def temperature_conversion(celsius):
+    celsius = (fahrenheit - 32) / 1.8
+    return celsius
 
-greet(name)
+print("The temperature conversion to celsius is ", temperature_conversion(celsius))
+
+# name=input('what is your name?: ')
+
+# def greet(name):
+#     print("hello", name ,"good morning , how are you ? have a nice time! ")
+
+# greet(name)
 
