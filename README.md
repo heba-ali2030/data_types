@@ -19,3 +19,7 @@ steps:
             * 3- built in power function
 
             * 4- def function
+
+ # 3- def number_division
+ # 4- methods for conversion between celsius and fahrenheit
+ # 5- greet name            
